@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    background: rgb(152, 8, 160);
+}
+
+.addUser {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: rgb(29, 34, 108);
+    padding: 10px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+input {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 20px;
+    display: inline;
+    padding: 5px;
+    width: 100px;
+}
+
+.addedUsers {
+    position:absolute ;
+    right:1.5% ;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 10px;
+    background: rgb(172, 18, 72);
+    align-items: center;
+    padding: 10px;
+}
+
+
+.users,
+.user {
+    width: 100%;
+}
+
+.user {
+    margin-top: 10px;
+    background: rgb(138, 35, 14);
+    padding: 10px;
+}
+
+.user>p {
+    font-size: bold;
+    width: 100%;
+    background: rgb(137, 45, 45);
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.user>p:not(:last-child) {
+    margin-bottom: 10px;
+}
